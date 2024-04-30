@@ -1,0 +1,53 @@
+---
+title: README
+author: Xiaoyi Wang
+date: 03/07/2024
+date-format: long
+format: 
+  html: 
+    self-contained: true
+    df-print: tibble
+editor_options: 
+  chunk_output_type: console
+execute: 
+  warning: false
+  message: false
+---
+
+Install packages.
+
+```{r, setup}
+pacman::p_load(tidyverse, targets, gt, readxl, quarto)
+```
+
+Because we want to obtain Christmas movies, therefore:
+
+1.  Retain movie information that includes title types "movie" and "tvMovie", treating them as belonging to the movie category.
+
+2.  Retain movie information where "christmas" is true.
+
+Then, only retain the genres and average ratings of the filtered movie information.
+
+For readability, display only the first 10 rows of the table, and show only one decimal place.
+
+```{r}
+tar_read(movies_tab1_show)
+```
+
+Categorize movies by genre, calculate the average and median ratings for each genre, and then rank the genres and their median ratings in descending order according to the mean ratings.
+
+It is worth noting that the initial classification of genres from the original Excel file will be maintained. For example, "Comedy" and "Comedy, Drama" will be considered as two different genres.
+
+For readability, display only the first 10 rows of the table, and show only one decimal place.
+
+```{r}
+tar_read(movies_tab2_show)
+```
+
+If available, obtain genres with both mean and median ratings higher than those of others.
+
+```{r}
+tar_read(movies_answer)
+```
+
+Ultimately, we conclude that the genre "Documentary, History, War" provides the best rating for Christmas movies.

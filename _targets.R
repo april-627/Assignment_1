@@ -1,0 +1,21 @@
+# Load packages required to define the pipeline:
+library(targets)
+library(tarchetypes)
+
+# Set target options:
+tar_option_set(
+  packages = c("tidyverse","gt","quarto","readxl"),
+  format = "rds"
+)
+
+tar_source()
+
+list(
+  tar_file(movies_file, "raw-data/movies.xlsx"),
+  tar_target(movies_tab1,get_tab1(movies_file)),
+  tar_target(movies_tab1_show, show_tab(movies_tab1)),
+  tar_target(movies_tab2, get_tab2(movies_tab1)),
+  tar_target(movies_tab2_show, show_tab(movies_tab2)),
+  tar_target(movies_answer, answer(movies_tab2)),
+  tar_quarto(readme, "readme.qmd")
+)

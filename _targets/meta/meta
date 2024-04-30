@@ -1,0 +1,21 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|16f0d90380e9c397|||||||||||||||
+answer|function|6211a37d356d97ee|||||||||||||||
+filter|function|e681663aab8a7777|||||||||||||||
+get_tab1|function|e681663aab8a7777|||||||||||||||
+get_tab2|function|e1d2a14fd60b524a|||||||||||||||
+get_table|function|f9f1dd34f42cceed|||||||||||||||
+get_table1|function|cb2014532d661edf|||||||||||||||
+get_table2|function|e1d2a14fd60b524a|||||||||||||||
+movies_answer|stem|caa4865f720097a8|93f430f56e6d1b3c|3362dc7c265f1d71|47877950||t19789.4833537682s|ff026697d66e9a9f|75|rds|local|vector|||0||
+movies_file|stem|20e00f4b789d1c4a|f648f7be256f814a|ef46db3751d8e999|-487212977|raw-data/movies.xlsx|t19788.1384533444s|1c4555af343b3da5|220646|file|local|vector|||0.56|程辑包tidyverse是用R版本4.3.3 来建造的. 程辑包ggplot2是用R版本4.3.3 来建造的. 程辑包tibble是用R版本4.3.3 来建造的. 程辑包tidyr是用R版本4.3.3 来建造的. 程辑包readr是用R版本4.3.3 来建造的. 程辑包purrr是用R版本4.3.3 来建造的. 程辑包stringr是用R版本4.3.3 来建造的. 程辑包forcats是用R版本4.3.3 来建造的. 程辑包lubridate是用R版本4.3.3 来建造的. 程辑包gt是用R版本4.3.3 来建造的. 程辑包quarto是用R版本4.3.3 来建造的. 程辑包readxl是用R版本4.3.3 来建造的|
+movies_filter|stem|7e5c90cfd10ecaef|52d96d2277653a1a|acf7eff9cbfcacd1|-1630836419||t19789.482949835s|9c65c0efa2bd8545|6114|rds|local|vector|||0.08||
+movies_tab|stem|5c3789d28f3f5d68|a4865df7a0603e95|fab9bd03100bac2f|-1415006227||t19788.1373547703s||15906|rds|local|vector|||0.01||没有get_table这个函数
+movies_tab1|stem|7e5c90cfd10ecaef|52d96d2277653a1a|acf7eff9cbfcacd1|-208732786||t19789.4887624081s|9c65c0efa2bd8545|6114|rds|local|vector|||0.07||
+movies_tab1_show|stem|a266b838ee6a5033|e22b20c9bf0a3c88|dd42a0a8260a25b0|-836518712||t19789.5100329822s|bc9b5e45b2602fd3|9059|rds|local|vector|||0.04||
+movies_tab2|stem|ffeb6fea724c3fdd|66b8a32e69130b12|2f743204fcd6f5b0|-1423848301||t19789.4887629421s|f671a400543030db|1714|rds|local|vector|||0.02||
+movies_tab2_show|stem|ae3190e2e6f27707|c22fd8a091f1ccb4|a516452c23f5663b|176312200||t19789.5100336573s|8091aead60cfcbb8|9109|rds|local|vector|||0.05||
+mpg_file|stem||d19a84d9669338ad|ef46db3751d8e999|-959890347|mpg.csv|t19787.4810350248s||0|file|local|vector|||||_paths_ missing files mpg.csv
+readme|stem|913a7ed9b87dd2b3|5d22a8b0e9d0e75e|256d7ac108b9289b|980901812|readme.html*readme.qmd|t19794.4074240293s|5bd60e0e8f21f0d2|902383|file|local|vector|||6.11||
+show_tab|function|0368d36d34ca724e|||||||||||||||
+show_tab1|function|7294331e976a8f84|||||||||||||||
